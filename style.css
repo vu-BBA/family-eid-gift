@@ -13,15 +13,17 @@ body {
   align-items: center;
   justify-content: center;
   /* Animated gradient background */
-  background: linear-gradient(-45deg, #21e6e6, #c78bbd, #ffd700, #a100d7);
-  background-size: 400% 400%;
-  animation: gradientBG 12s ease infinite;
+  background-image: url("https://www.nicepng.com/png/detail/938-9387982_borders-and-frames-clip-art-colorful-border-designs.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
 }
-@keyframes gradientBG {
-  0% {background-position:0% 50%;}
-  50% {background-position:100% 50%;}
-  100% {background-position:0% 50%;}
-}
+
 
 .container {
   flex: 1;
